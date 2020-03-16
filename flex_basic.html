@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex basic</title>
+    <style>
+      #container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .item {
+        background: #ddd;
+        border: black solid 1px;
+        padding: 1rem;
+        text-align: center;
+        flex: 1;
+        margin: 0.71rem;
+      }
+      .item:first-child {
+        flex: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+      <div class="item">item1</div>
+    </div>
+  </body>
+</html>
